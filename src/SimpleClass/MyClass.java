@@ -13,7 +13,6 @@ public class MyClass {
             array[i] = (int)(Math.random()*numArray);
         }
         do{
-
             System.out.println("Continue - enter \"no\"");
             a = scan.next();
             if(a.equals("no")){
@@ -26,6 +25,5 @@ public class MyClass {
                 }
             }
         }while(a.equals("no"));
-
     }
 }
